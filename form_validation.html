@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>validation</title>
+	<link rel="stylesheet" href="validation.css">
+	<script type="text/javascript" src="validation.js"></script>
+</head>
+<body>
+	<div class="form-valodation">
+		<p class="validation-title">validation</p>
+		<form action="">
+		   <div class="se-line">
+				<label for="username">用户名：</label>
+				<input type="text" id="username">
+				<span><i class="warn"></i><p>5-25个字符,推荐使用中文</p></span>
+				<div class="total_zifu" id="total_zifu">0个字符</div>
+			</div>
+			<div class="se-line">
+				<label for="password">密码：</label>
+				<input type="text" id="password">
+				<span><i></i><p>5-25个字符,推荐使用中文</p></span>
+				<div class="password-status">
+					<em class="active">低</em>
+					<em>一般</em>
+					<em>强</em>	
+				</div>
+			</div>
+			<div class="se-line">
+				<label for="rpass">重新输入密码：</label>
+				<input type="password" id="rpass" disabled="" class="disabled">
+				<span><i class="warn"></i><p>请再输入一次密码</p></span>	
+			</div>
+			<div class="se-line">
+			<input type="submit" value="提交" class="submit">
+			</div>
+		</form>
+	</div>
+</body>
+</html>

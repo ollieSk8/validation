@@ -1,0 +1,127 @@
+html,body,em,strong,i,ul,li,form,label,div,span,p{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+body{
+}
+.validation-title{
+	font-size:30px;
+	text-align: center;
+	padding:10px 0px;
+}
+.form-valodation{
+  width:730px;
+  height:400px;
+  padding:20px;
+  border:1px solid #e1e1e1;
+  box-shadow:1px 2px 25px rgba(0,0,0,0.1);
+  border-radius:10px;
+  background:#fff;
+  margin:100px auto;
+}
+.se-line{
+	padding:15px 0px 0px 0px;
+
+}
+.se-line .total_zifu{
+	padding-left:123px;
+	height:30px;
+	line-height:30px;
+	color:#f00;
+	display:none;
+}
+.se-line label{
+	width:120px;
+	display: inline-block;
+	text-align: right;
+}
+.se-line input{
+	width:180px;
+	height:30px;
+	border:1px solid #ccc;
+	padding:0px 10px;
+}
+.se-line input:focus{
+	
+}
+.se-line span{
+	margin-left:10px;
+	display:inline-block;
+	display:none;
+}
+.se-line .accept{
+	width:16px;
+	height:16px;
+	background:url(accept.gif) no-repeat;
+	display: block;
+	float:left;
+	margin-right:10px;
+}
+.se-line .error{
+	width:16px;
+	height:16px;
+	background:url(error.png) no-repeat;
+	display: block;
+	float:left;
+	margin-right:10px;
+}
+.se-line .warn{
+	width:16px;
+	height:16px;
+	background:url(warning.png) no-repeat;
+	display: block;
+	float:left;
+	margin-right:10px;
+}
+.se-line p{
+	display: inline-block;
+	float:left;
+	margin-right:10px;
+	color:#f00;
+}
+.se-line .submit{
+	width:100px;
+	height:40px;
+	background:#f00;
+	border-radius:10px;
+	color:#fff;
+	margin-left:122px;
+}
+.password-status{
+	width:348px;
+	margin-left:124px;
+	height:30px;
+	border-left:1px solid #ccc;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	clear: both;
+	background:#fff;
+	margin-top:10px;
+}
+.password-status em{
+	width:115px;
+	height:30px;
+	line-height:30px;
+	display: block;
+	float:left;
+	text-align:center;
+	background:#e1e1e1;
+	color:#fff;
+	border-right:1px solid #ccc;
+}
+.password-status .active{
+	background:#666;
+	color:#fff;
+}
+.disabled{
+	background:#e1e1e1;
+}
+
+
+
+
+
+
+
+
